@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Assertions;
 
 
 
-public class MainTest {
+public class DriverTest {
     @Test
     public void myTestMethod() {
         Assertions.assertEquals(1 ,1  );

@@ -42,8 +42,10 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-
-
-
+        <dependency>
+            <groupId>org.apache.arrow</groupId>
+            <artifactId>flight-sql-jdbc-driver</artifactId>
+            <version>15.0.2</version>
+        </dependency>
     </dependencies>
 </project>
