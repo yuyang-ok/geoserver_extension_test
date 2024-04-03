@@ -34,18 +34,18 @@ public class FabricDataStoreFactory implements DataStoreFactorySpi {
                 new Param("username", String.class),
                 new Param("password", String.class),
         };
-        
+
         return x;
     }
 
     @Override
     public boolean canProcess(Map<String, Serializable> map) {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return true;
     }
 
     @Override
