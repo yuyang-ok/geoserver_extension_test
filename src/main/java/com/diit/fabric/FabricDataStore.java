@@ -1,13 +1,15 @@
 package com.diit.fabric;
 
-import org.geotools.data.*;
-import org.geotools.data.simple.SimpleFeatureSource;
+
 import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.feature.type.Name;
 
 import java.io.IOException;
 import java.util.List;
+
+import org.geotools.api.data.DataStore;
+import org.geotools.data.DataStore;
 
 public class FabricDataStore implements DataStore {
     @Override
@@ -84,7 +86,7 @@ public class FabricDataStore implements DataStore {
 
     @Override
     public FeatureWriter<SimpleFeatureType, SimpleFeature> getFeatureWriter(String s, org.opengis.filter.Filter filter,
-            Transaction transaction) throws IOException {
+                                                                            Transaction transaction) throws IOException {
         return null;
     }
 

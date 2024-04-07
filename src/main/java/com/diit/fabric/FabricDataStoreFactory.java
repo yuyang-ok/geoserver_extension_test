@@ -1,7 +1,8 @@
 package com.diit.fabric;
 
 import org.geotools.data.DataStore;
-import org.geotools.data.DataStoreFactorySpi;
+import org.geotools.api.data.DataStoreFactorySpi;
+
 
 import java.awt.*;
 import java.io.IOException;
