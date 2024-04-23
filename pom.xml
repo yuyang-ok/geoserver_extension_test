@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.diit.fabric</groupId>
-    <artifactId>geodriver</artifactId>
+    <artifactId>fabric-goeserver-driver</artifactId>
     <version>1.0-SNAPSHOT</version>
     <repositories>
         <repository>
@@ -39,11 +39,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <!--        <dependency>-->
-        <!--            <groupId>org.geotools</groupId>-->
-        <!--            <artifactId>gt-main</artifactId>-->
-        <!--            <version>20.0</version>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-main</artifactId>
+            <version>31.0</version>
+            <scope>system</scope>
+            <systemPath>D:\lib\gt-main-31.0.jar</systemPath>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -51,10 +53,10 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.arrow</groupId>
-            <artifactId>flight-sql-jdbc-driver</artifactId>
-            <version>15.0.2</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.arrow</groupId>-->
+        <!--            <artifactId>flight-sql-jdbc-driver</artifactId>-->
+        <!--            <version>15.0.2</version>-->
+        <!--        </dependency>-->
     </dependencies>
 </project>

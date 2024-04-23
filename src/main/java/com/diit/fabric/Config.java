@@ -7,7 +7,6 @@ public class Config {
     public String password;
 
     public Config(
-
             String host,
             int port,
             String username,
